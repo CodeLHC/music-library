@@ -12,7 +12,7 @@ async function createArtist(req, res) {
     }
 }
 
-async function retrieveArtists(req,res){
+async function retrieveArtists(_,res){
     try{
         const { rows } = await db.query(`SELECT * FROM Artists`)
         

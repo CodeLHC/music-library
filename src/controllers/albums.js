@@ -13,7 +13,7 @@ async function createAlbum(req, res) {
     }
 }
 
-async function retrieveAlbums(req, res) {
+async function retrieveAlbums(_, res) {
     try {
       const { rows } = await db.query('SELECT * FROM Albums');
       res.status(200).json(rows);

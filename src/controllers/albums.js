@@ -20,7 +20,7 @@ async function retrieveAlbums(req, res) {
     } catch (err) {
       res.status(500).json(err.message);
     }
-  };
+  }
   
   async function getAlbumById(req, res){
     try {
@@ -36,7 +36,7 @@ async function retrieveAlbums(req, res) {
     } catch (err) {
       res.status(500).json(err.message);
     }
-  };
+  }
 
   async function updateAlbum(req, res) {
     const { id } = req.params;
@@ -67,7 +67,7 @@ async function retrieveAlbums(req, res) {
       console.error(err);
       res.status(500).json(err.message);
     }
-  };
+  }
   
   async function deleteAlbum(req, res) {
     try {
@@ -88,7 +88,7 @@ async function retrieveAlbums(req, res) {
     } catch (err) {
       res.status(500).json(err.message);
     }
-  };
+  }
 
 module.exports = {
     createAlbum,

@@ -1,6 +1,6 @@
 # music-library
 
-This is a web application made to manage a music library. CRUD (create, read, update, delete) operations were made for albums and artists in a database.
+This is a server made to manage a music library. CRUD (create, read, update, delete) operations were made for albums and artists in a database.
 
 The app has been built using JavaScript using Express framework, Docker for the container, pgAdmin4 for database management, and Mocha for testing.
 
